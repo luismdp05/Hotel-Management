@@ -1,0 +1,5 @@
+data/
+enterprise/
+odoo.conf
+pyrightconfig.json
+*.pyc

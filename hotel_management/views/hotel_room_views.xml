@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- View hotel_room View Tree -->
+    <record id="view_hotel_room_tree" model="ir.ui.view" >
+        <field name="name">hotel.room.tree</field>
+        <field name="model">hotel.room</field>
+        <field name="arch" type="xml">
+            <tree string="Hotel Rooms">
+                <field name="name"/>
+                <field name="room_type"/>
+                <field name="availability"/>
+                <!-- <field name="hotel_id"/> -->
+                <field name="bed_type"/>
+                <field name="room_size"/>
+                <field name="room_capacity"/>
+                <field name="base_price"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- View hotel_room Kaban -->
+    <record id="view_hotel_room_kanban_view" model="ir.ui.view" >
+        <field name="name">hotel.room.kanban</field>
+        <field name="model">hotel.room</field>
+        <field name="arch" type="xml">
+            <kanban class="o_kanban_mobile">
+                <templates>
+                    <t t-name="kanban-box">
+                        <div t-attf-class="oe_kanban_card oe_kanban_global_click">
+                            <div class="oe_kanban_card_header">
+                                <span name="name"/>
+                            </div>
+                            <div class="oe_kanban_card_content">
+                                <field name="room_type"/>
+                                <field name="availability"/>
+                                <!-- <field name="hotel_id"/> -->
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>
+        </field>
+    </record>
+
+
+    <!-- View hotel_room form -->
+    <record id="view_hotel_room_form" model="ir.ui.view">
+        <field name="name">hotel.room.form</field>
+        <field name="model">hotel.room</field>
+        <field name="arch" type="xml">
+            <form string="Hotel Room">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="Nombre..."/>
+                        </h1>
+                    </div>
+                    <group col="2" string="Datos ">
+                        <group>
+                            <field name="room_type"/>
+                            <field name="availability"/>
+                            <!-- <field name="hotel_id"/> -->
+                        </group>
+                        <group>
+                            <field name="bed_type"/>
+                            <field name="room_size"/>
+                            <field name="room_capacity"/>
+                            <field name="room_description"/>
+                        </group>
+                    </group>
+                    <group col="2" string ="Otros Datos">
+                        <group>
+                            <field name="services_included"/>
+                            <field name="room_amenities"/>
+                        </group>
+                        <group>
+                            <field name="base_price"/>
+                            <field name="discount_rate"/>
+                            <field name="special_rate"/>
+                        </group>
+                    </group>
+                    <group col="2" string="Otros datos mas">
+                        <group>
+                            <field name="last_cleaning_date"/>
+                            <field name="facilities"/>
+                            <field name="number_of_beds"/>
+                            <field name="floor"/>
+                            <field name="room_code"/>
+                            <field name="image"/>
+                            <field name="comments"/>
+                            <field name="last_occupation_date"/>
+                        </group>
+                        <group>
+                            <field name="service_requests"/>
+                            <field name="inventory_items"/>
+                            <field name="maintenance_schedule"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <!-- View hotel_room search -->
+    <record id="view_hotel_room_search" model="ir.ui.view">
+        <field name="name">view.hotel.room.search</field>
+        <field name="model">hotel.room</field>
+        <field name="arch" type="xml">
+            <search string="Hotel_room">
+                <group expand="1" string="Group By">
+                    <filter string="Name" name="name" domain="[]" context="{'group_by':'name'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- Action hotel_room -->
+    <record id="action_hotel_room" model="ir.actions.act_window">
+        <field name="name">Hotel Room</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">hotel.room</field>
+        <field name="view_mode">kanban,tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{}</field>
+        <field name="help" type="html">
+            <p class="oe_view_nocontent_create">
+                No se han registrado datos de ninguna Habitación.
+            </p>
+        </field>
+    </record>
+    <!-- Menu -->
+    <menuitem id="menu_hotel_room" name="Hotel Rooms" action="action_hotel_room" web_icon="hotel_management,static/img/icon.png"/>
+</odoo>
