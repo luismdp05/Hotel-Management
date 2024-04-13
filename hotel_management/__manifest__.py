@@ -4,7 +4,7 @@
     'version': '1.0',
     'description': """ Module for room management in hotels. """,
     'summary': """ Module for room management in hotels. """,
-    'author': 'luismdp05',
+    'author': 'luismdp05, aDogdev',
     'website': '',
     'category': '',
     'depends': ['base'],
