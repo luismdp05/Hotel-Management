@@ -6,6 +6,7 @@ from odoo.exceptions import UserError, ValidationError
 
 _logger = logging.getLogger(__name__)
 
+
 class HotelRoom(models.Model):
     _name = 'hotel.room'
     _description = _('Module for room management in hotels.')
@@ -15,7 +16,7 @@ class HotelRoom(models.Model):
         ('single', 'Individual'),
         ('double', 'Doble'),
         ('suite', 'Suite'),
-        ('penthouse', 'Penthouse')], 
+        ('penthouse', 'Penthouse')],
         string='Tipo de Habitación', default='single')
     availability = fields.Selection([
         ('available', 'Disponible'),
@@ -47,6 +48,7 @@ class HotelRoom(models.Model):
     comments = fields.Text(string='Comentarios')
     last_occupation_date = fields.Date(string='Fecha de Última Ocupación')
 
+
 class HotelFacility(models.Model):
     _name = 'hotel.facility'
     _description = 'Instalación del Hotel'
@@ -54,9 +56,9 @@ class HotelFacility(models.Model):
     name = fields.Char(string='Nombre de la Instalación')
     number_of_stars = fields.Integer(string='Número de Estrellas')
 
+
 class HotelChain(models.Model):
     _name = 'hotel.chain'
     _description = 'Cadenas Hoteleras'
 
     name = fields.Char(string='Cadena Hotelera')
-
