@@ -11,7 +11,8 @@
     "data": [
         "security/ir.model.access.csv",
         "views/hotel_room_views.xml",
-        "views/hotel_facility_views.xml"
+        "views/hotel_facility_views.xml",
+        "views/hotel_chain_views.xml"
     ],
     'application': True,
     'installable': True,

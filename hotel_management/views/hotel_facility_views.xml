@@ -23,6 +23,10 @@
                         <h1>
                             <field name="name" placeholder="Nombre..."/>
                         </h1>
+                        <label for="number_of_stars"/>
+                        <h1>
+                            <field name="number_of_stars" placeholder="Cantidad de Estrellas.."/>
+                        </h1>
                     </div>
                 </sheet>
             </form>
@@ -56,6 +60,6 @@
             </p>
         </field>
     </record>
-    <menuitem id="menu_hotel_facility" name="Instalación del Hotel" action="action_hotel_facility" parent="menu_hotel_room" sequence="1"/>
+    <menuitem id="menu_hotel_facility" name="Instalación del Hotel" action="action_hotel_facility" parent="menu_hotel_room" sequence="2"/>
 
 </odoo>
