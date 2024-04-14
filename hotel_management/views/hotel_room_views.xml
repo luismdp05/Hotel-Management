@@ -51,6 +51,7 @@
         </field>
     </record>
 
+
     <!-- View hotel_room form -->
     <record id="view_hotel_room_form" model="ir.ui.view">
         <field name="name">hotel.room.form</field>
@@ -138,7 +139,6 @@
                 No room data has been recorded.
             </p>
         </field>
-        <field />
     </record>
     <!-- Menu -->
     <menuitem id="menu_hotel_room" name="Hotel Rooms" action="action_hotel_room"
