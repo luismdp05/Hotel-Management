@@ -10,7 +10,6 @@
                 <field name="name"/>
                 <field name="room_type"/>
                 <field name="availability"/>
-                <field name="hotel_chain_id"/>
                 <field name="bed_type"/>
                 <field name="room_size"/>
                 <field name="room_capacity"/>
@@ -19,7 +18,7 @@
         </field>
     </record>
 
-    <!-- View hotel_room Kaban -->
+    <!-- View hotel_room Kanban -->
     <record id="view_hotel_room_kanban_view" model="ir.ui.view" >
         <field name="name">hotel.room.kanban</field>
         <field name="model">hotel.room</field>
@@ -45,11 +44,6 @@
                                     <field name="image" widget="image" size="small"/>
                                 </span>
                             </div>
-                            <div>
-                                <span class="o_kanban_record_subtitle">
-                                    <field name="hotel_chain_id"/>
-                                </span>
-                            </div>
                         </div>
                     </t>
                 </templates>
@@ -68,21 +62,20 @@
                     <div class="oe_title">
                         <label for="name"/>
                         <h1>
-                            <field name="name" placeholder="Habitación ..."/>
+                            <field name="name" placeholder="Room ..."/>
                         </h1>
                     </div>
-                    <group col="2" string="Datos ">
+                    <group col="2" string="Data">
                         <group>
                             <field name="room_type"/>
                             <field name="availability"/>
-                            <field name="hotel_chain_id"/>
                             <field name="facilities_id"/>
                         </group>
-                        <group string ="Imagen del Hotel">
+                        <group>
                             <field name="image" widget="image" size="small"/>
                         </group>
                     </group>
-                    <group col="2" string ="Otros Datos">
+                    <group col="2" string="Other Data">
                         <group>
                             <field name="bed_type"/>
                             <field name="room_size"/>
@@ -94,7 +87,7 @@
                             <field name="room_amenities"/>
                         </group>
                     </group>
-                    <group col="2" string="Otros datos mas">
+                    <group col="2" string="More Data">
                         <group>
                             <field name="base_price"/>
                             <field name="discount_rate"/>
@@ -109,7 +102,7 @@
                             <field name="last_occupation_date"/>
                         </group>
                     </group>
-                    <group col ="2" string="Otros Datos mass">
+                    <group col="2" string="More Data">
                         <group>
                             <field name="service_requests"/>
                             <field name="inventory_items"/>
@@ -143,10 +136,10 @@
         <field name="context">{}</field>
         <field name="help" type="html">
             <p class="oe_view_nocontent_create">
-                No se han registrado datos de ninguna Habitación.
+                No room data has been recorded.
             </p>
         </field>
     </record>
     <!-- Menu -->
-    <menuitem id="menu_hotel_room" name="Hotel Rooms" action="action_hotel_room" web_icon="hotel_management,static/img/icon.png"/>
+    <menuitem id="menu_hotel_room" name="Hotel Rooms" action="action_hotel_room" parent="menu_hotel_facilities" sequence="1"/>
 </odoo>

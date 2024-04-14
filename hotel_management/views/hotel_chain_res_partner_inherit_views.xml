@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    
+    <!-- View res.partner tree -->
+    <record id="view_res_partner_tree_inherited" model="ir.ui.view">
+        <field name="name">view.res.partner.tree.inherited</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <xpath expr="//tree" position="inside">
+                <field name="hotel_chain_name"/>
+                <field name="country_of_origin"/>
+                <field name="total_hotels"/>
+                <field name="chain_category"/>
+            </xpath>
+        </field>
+    </record>
+
+
+    <!-- View res.partner form -->
+    <record id="view_res_partner_form_inherited" model="ir.ui.view">
+        <field name="name">view.res.partner.form.inherited</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook" position="inside">
+                <page string="Hotel Chain Information">
+                    <group col="2" string="Hotel Chain Data">
+                        <group >
+                            <field name="hotel_chain_name"/>
+                            <field name="country_of_origin"/>
+                            <field name="headquarters_address"/>
+                            <field name="total_hotels"/>
+                            <field name="chain_category"/>   
+                        </group>
+                        <group>
+                            <field name="corporate_website"/>
+                            <field name="corporate_contact_info"/>
+                            <field name="foundation_date"/>
+                            <field name="financial_information"/>
+                            <field name="hotel_affiliation_status"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
