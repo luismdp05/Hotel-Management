@@ -2,24 +2,24 @@
 <odoo>
 
     <!-- View hotel_room View Tree -->
-    <record id="view_hotel_room_tree" model="ir.ui.view" >
+    <record id="view_hotel_room_tree" model="ir.ui.view">
         <field name="name">hotel.room.tree</field>
         <field name="model">hotel.room</field>
         <field name="arch" type="xml">
             <tree string="Hotel Rooms">
-                <field name="name"/>
-                <field name="room_type"/>
-                <field name="availability"/>
-                <field name="bed_type"/>
-                <field name="room_size"/>
-                <field name="room_capacity"/>
-                <field name="base_price"/>
+                <field name="name" />
+                <field name="room_type" />
+                <field name="availability" />
+                <field name="bed_type" />
+                <field name="room_size" />
+                <field name="room_capacity" />
+                <field name="base_price" />
             </tree>
         </field>
     </record>
 
     <!-- View hotel_room Kanban -->
-    <record id="view_hotel_room_kanban_view" model="ir.ui.view" >
+    <record id="view_hotel_room_kanban_view" model="ir.ui.view">
         <field name="name">hotel.room.kanban</field>
         <field name="model">hotel.room</field>
         <field name="arch" type="xml">
@@ -30,18 +30,18 @@
                             <div>
                                 <strong class="o_kanban_record_title">
                                     <span>
-                                        <field name="name"/>
+                                        <field name="name" />
                                     </span>
                                 </strong>
                             </div>
                             <div>
                                 <span class="o_kanban_record_subtitle">
-                                    <field name="availability"/>
+                                    <field name="availability" />
                                 </span>
                             </div>
                             <div>
                                 <span class="o_kanban_record_image">
-                                    <field name="image" widget="image" size="small"/>
+                                    <field name="image" widget="image" size="small" />
                                 </span>
                             </div>
                         </div>
@@ -51,7 +51,6 @@
         </field>
     </record>
 
-
     <!-- View hotel_room form -->
     <record id="view_hotel_room_form" model="ir.ui.view">
         <field name="name">hotel.room.form</field>
@@ -60,53 +59,53 @@
             <form string="Hotel Room">
                 <sheet>
                     <div class="oe_title">
-                        <label for="name"/>
+                        <label for="name" />
                         <h1>
-                            <field name="name" placeholder="Room ..."/>
+                            <field name="name" placeholder="Room ..." />
                         </h1>
                     </div>
                     <group col="2" string="Data">
                         <group>
-                            <field name="room_type"/>
-                            <field name="availability"/>
-                            <field name="facilities_id"/>
+                            <field name="room_type" />
+                            <field name="availability" />
+                            <field name="facilities_id" />
                         </group>
                         <group>
-                            <field name="image" widget="image" size="small"/>
+                            <field name="image" widget="image" size="small" />
                         </group>
                     </group>
                     <group col="2" string="Other Data">
                         <group>
-                            <field name="bed_type"/>
-                            <field name="room_size"/>
-                            <field name="room_capacity"/>
-                            <field name="room_description"/>
+                            <field name="bed_type" />
+                            <field name="room_size" />
+                            <field name="room_capacity" />
+                            <field name="room_description" />
                         </group>
                         <group>
-                            <field name="services_included"/>
-                            <field name="room_amenities"/>
-                        </group>
-                    </group>
-                    <group col="2" string="More Data">
-                        <group>
-                            <field name="base_price"/>
-                            <field name="discount_rate"/>
-                            <field name="special_rate"/>
-                        </group>
-                        <group>
-                            <field name="last_cleaning_date"/>
-                            <field name="number_of_beds"/>
-                            <field name="floor"/>
-                            <field name="room_code"/>
-                            <field name="comments"/>
-                            <field name="last_occupation_date"/>
+                            <field name="services_included" />
+                            <field name="room_amenities" />
                         </group>
                     </group>
                     <group col="2" string="More Data">
                         <group>
-                            <field name="service_requests"/>
-                            <field name="inventory_items"/>
-                            <field name="maintenance_schedule"/>
+                            <field name="base_price" />
+                            <field name="discount_rate" />
+                            <field name="special_rate" />
+                        </group>
+                        <group>
+                            <field name="last_cleaning_date" />
+                            <field name="number_of_beds" />
+                            <field name="floor" />
+                            <field name="room_code" />
+                            <field name="comments" />
+                            <field name="last_occupation_date" />
+                        </group>
+                    </group>
+                    <group col="2" string="More Data">
+                        <group>
+                            <field name="service_requests" />
+                            <field name="inventory_items" />
+                            <field name="maintenance_schedule" />
                         </group>
                     </group>
                 </sheet>
@@ -120,7 +119,7 @@
         <field name="arch" type="xml">
             <search string="Hotel_room">
                 <group expand="1" string="Group By">
-                    <filter string="Name" name="name" domain="[]" context="{'group_by':'name'}"/>
+                    <filter string="Name" name="name" domain="[]" context="{'group_by':'name'}" />
                 </group>
             </search>
         </field>
@@ -139,7 +138,9 @@
                 No room data has been recorded.
             </p>
         </field>
+        <field />
     </record>
     <!-- Menu -->
-    <menuitem id="menu_hotel_room" name="Hotel Rooms" action="action_hotel_room" parent="menu_hotel_facilities" sequence="1"/>
+    <menuitem id="menu_hotel_room" name="Hotel Rooms" action="action_hotel_room"
+        parent="menu_hotel_facilities" sequence="1" />
 </odoo>
