@@ -56,9 +56,9 @@ We use [Git](https://git-scm.com) for versioning.
 
 ## Authors ✒️
 
-- **Luis Miguel D** - _Trabajo inicial_ - [Luis Miguel D](https://github.com/luismdp05)
-- **Adrian D** - [Adrian M](https://github.com/aDogdev)
-- **Ernesto P** - [Ernesto P](https://github.com/nestoki)
+- **Luis Miguel ** - _Trabajo inicial_ - [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/luismdp05)
+- **Adrian ** - [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/aDogdev)
+- **Ernesto ** - [![Github](https://img.shields.io/badge/-Github-000?style=flat&logo=Github&logoColor=white)](https://github.com/nestoki)
 
 <!-- Mira también la lista de [contribuidores](https://github.com/your/project/contributors) que han participado en este proyecto. -->
 
