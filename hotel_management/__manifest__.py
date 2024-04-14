@@ -10,9 +10,9 @@
     'depends': ['base'],
     "data": [
         "security/ir.model.access.csv",
+        "views/hotel_chain_res_partner_inherit_views.xml",
+        "views/hotel_facilities_views.xml",
         "views/hotel_room_views.xml",
-        "views/hotel_facility_views.xml",
-        "views/hotel_chain_views.xml"
     ],
     'application': True,
     'installable': True,
