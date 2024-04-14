@@ -1,7 +1,3 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* hotel_management
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e\n"
@@ -18,217 +14,217 @@ msgstr ""
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_category__1_star
 msgid "1 Star"
-msgstr ""
+msgstr "1 Estrella"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_category__2_star
 msgid "2 Stars"
-msgstr ""
+msgstr "2 Estrellas"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_category__3_star
 msgid "3 Stars"
-msgstr ""
+msgstr "3 Estrellas"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_category__4_star
 msgid "4 Stars"
-msgstr ""
+msgstr "4 Estrellas"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_category__5_star
 msgid "5 Stars"
-msgstr ""
+msgstr "5 Estrellas"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__hotel_affiliation_status__active
 msgid "Active"
-msgstr ""
+msgstr "Activo"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__availability__available
 msgid "Available"
-msgstr ""
+msgstr "Disponible"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__base_price
 msgid "Base Price per Night"
-msgstr ""
+msgstr "Precio Base por Noche"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__bed_type
 msgid "Bed Type"
-msgstr ""
+msgstr "Tipo de Cama"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_type__boutique
 #: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__chain_category__boutique
 msgid "Boutique"
-msgstr ""
+msgstr "Boutique"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__chain_category
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__chain_category
 msgid "Chain Category"
-msgstr ""
+msgstr "Categoría de Cadena"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__city
 msgid "City"
-msgstr ""
+msgstr "Ciudad"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__comments
 msgid "Comments"
-msgstr ""
+msgstr "Comentarios"
 
 #. module: hotel_management
 #: model:ir.model,name:hotel_management.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Contacto"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__corporate_contact_info
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__corporate_contact_info
 msgid "Corporate Contact Information"
-msgstr ""
+msgstr "Información de Contacto Corporativo"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__corporate_website
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__corporate_website
 msgid "Corporate Website"
-msgstr ""
+msgstr "Sitio Web Corporativo"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__country
 msgid "Country"
-msgstr ""
+msgstr "País"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__country_of_origin
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__country_of_origin
 msgid "Country of Origin"
-msgstr ""
+msgstr "País de Origen"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__create_uid
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__create_date
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado el"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_form
 msgid "Data"
-msgstr ""
+msgstr "Datos"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__description
 msgid "Description"
-msgstr ""
+msgstr "Descripción"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__discount_rate
 msgid "Discount Rate (%)"
-msgstr ""
+msgstr "Tasa de Descuento (%)"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__display_name
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nombre a Mostrar"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__bed_type__double
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__room_type__double
 msgid "Double"
-msgstr ""
+msgstr "Doble"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_type__economy
 #: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__chain_category__economy
 msgid "Economy"
-msgstr ""
+msgstr "Económico"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__email
 msgid "Email"
-msgstr ""
+msgstr "Correo Electrónico"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__facilities_id
 msgid "Facilities"
-msgstr ""
+msgstr "Instalaciones"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__financial_information
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__financial_information
 msgid "Financial Information"
-msgstr ""
+msgstr "Información Financiera"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__floor
 msgid "Floor"
-msgstr ""
+msgstr "Piso"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__foundation_date
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__foundation_date
 msgid "Foundation Date"
-msgstr ""
+msgstr "Fecha de Fundación"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_search
 msgid "Group By"
-msgstr ""
+msgstr "Agrupar por"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__headquarters_address
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__headquarters_address
 msgid "Headquarters Address"
-msgstr ""
+msgstr "Dirección de la Sede Central"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__hotel_address
 msgid "Hotel Address"
-msgstr ""
+msgstr "Dirección del Hotel"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__hotel_affiliation_status
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__hotel_affiliation_status
 msgid "Hotel Affiliation Status"
-msgstr ""
+msgstr "Estado de Afiliación del Hotel"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__hotel_category
 msgid "Hotel Category"
-msgstr ""
+msgstr "Categoría del Hotel"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__hotel_chain_id
 msgid "Hotel Chain"
-msgstr ""
+msgstr "Cadena Hotelera"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_res_partner_form_inherited
 msgid "Hotel Chain Data"
-msgstr ""
+msgstr "Datos de la Cadena Hotelera"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_res_partner_form_inherited
 msgid "Hotel Chain Information"
-msgstr ""
+msgstr "Información de la Cadena Hotelera"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__hotel_chain_name
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__hotel_chain_name
 msgid "Hotel Chain Name"
-msgstr ""
+msgstr "Nombre de la Cadena Hotelera"
 
 #. module: hotel_management
 #. odoo-python
@@ -240,113 +236,113 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_facilities_tree
 #, python-format
 msgid "Hotel Facilities"
-msgstr ""
+msgstr "Instalaciones del Hotel"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_facilities_form
 msgid "Hotel Image"
-msgstr ""
+msgstr "Imagen del Hotel"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_facilities_form
 msgid "Hotel Information"
-msgstr ""
+msgstr "Información del Hotel"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__hotel_name
 msgid "Hotel Name"
-msgstr ""
+msgstr "Nombre del Hotel"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_facilities_form
 msgid "Hotel Name ..."
-msgstr ""
+msgstr "Nombre del Hotel ..."
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__image
 msgid "Hotel Photo"
-msgstr ""
+msgstr "Foto del Hotel"
 
 #. module: hotel_management
 #: model:ir.actions.act_window,name:hotel_management.action_hotel_room
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_form
 msgid "Hotel Room"
-msgstr ""
+msgstr "Habitación de Hotel"
 
 #. module: hotel_management
 #: model:ir.ui.menu,name:hotel_management.menu_hotel_room
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_tree
 msgid "Hotel Rooms"
-msgstr ""
+msgstr "Habitaciones del Hotel"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__hotel_type
 msgid "Hotel Type"
-msgstr ""
+msgstr "Tipo de Hotel"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_search
 msgid "Hotel_room"
-msgstr ""
+msgstr "Habitación de Hotel"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__id
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__image
 msgid "Image"
-msgstr ""
+msgstr "Imagen"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__hotel_affiliation_status__inactive
 msgid "Inactive"
-msgstr ""
+msgstr "Inactivo"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__inventory_items
 msgid "Inventory Items"
-msgstr ""
+msgstr "Artículos en Inventario"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__last_cleaning_date
 msgid "Last Cleaning Date"
-msgstr ""
+msgstr "Fecha de Última Limpieza"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__last_occupation_date
 msgid "Last Occupation Date"
-msgstr ""
+msgstr "Fecha de Última Ocupación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__write_uid
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última Actualización por"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__write_date
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última Actualización el"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_type__luxury
 #: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__chain_category__luxury
 msgid "Luxury"
-msgstr ""
+msgstr "Lujo"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__availability__maintenance
 msgid "Maintenance"
-msgstr ""
+msgstr "Mantenimiento"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__maintenance_schedule
 msgid "Maintenance Schedule"
-msgstr ""
+msgstr "Programa de Mantenimiento"
 
 #. module: hotel_management
 #. odoo-python
@@ -354,162 +350,162 @@ msgstr ""
 #: model:ir.model,name:hotel_management.model_hotel_room
 #, python-format
 msgid "Module for room management in hotels."
-msgstr ""
+msgstr "Módulo para gestión de habitaciones en hoteles."
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_form
 msgid "More Data"
-msgstr ""
+msgstr "Más Datos"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_search
 msgid "Name"
-msgstr ""
+msgstr "Nombre"
 
 #. module: hotel_management
 #: model_terms:ir.actions.act_window,help:hotel_management.action_hotel_room
 msgid "No room data has been recorded."
-msgstr ""
+msgstr "No se han registrado datos de habitaciones."
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__number_of_beds
 msgid "Number of Beds"
-msgstr ""
+msgstr "Número de Camas"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__number_of_rooms
 msgid "Number of Rooms"
-msgstr ""
+msgstr "Número de Habitaciones"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__availability__occupied
 msgid "Occupied"
-msgstr ""
+msgstr "Ocupada"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__res_partner__chain_category__other
 msgid "Other"
-msgstr ""
+msgstr "Otro"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_facilities_form
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_form
 msgid "Other Data"
-msgstr ""
+msgstr "Otros Datos"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__room_type__penthouse
 msgid "Penthouse"
-msgstr ""
+msgstr "Ático"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__phone
 msgid "Phone"
-msgstr ""
+msgstr "Teléfono"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__postal_code
 msgid "Postal Code"
-msgstr ""
+msgstr "Código Postal"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_facilities__hotel_type__resort
 msgid "Resort"
-msgstr ""
+msgstr "Resort"
 
 #. module: hotel_management
 #: model_terms:ir.ui.view,arch_db:hotel_management.view_hotel_room_form
 msgid "Room ..."
-msgstr ""
+msgstr "Habitación ..."
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_amenities
 msgid "Room Amenities"
-msgstr ""
+msgstr "Servicios de la Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_capacity
 msgid "Room Capacity"
-msgstr ""
+msgstr "Capacidad de la Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_code
 msgid "Room Code"
-msgstr ""
+msgstr "Código de Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_description
 msgid "Room Description"
-msgstr ""
+msgstr "Descripción de la Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__name
 msgid "Room Number"
-msgstr ""
+msgstr "Número de Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_size
 msgid "Room Size (m²)"
-msgstr ""
+msgstr "Tamaño de la Habitación (m²)"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__availability
 msgid "Room State"
-msgstr ""
+msgstr "Estado de la Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__room_type
 msgid "Room Type"
-msgstr ""
+msgstr "Tipo de Habitación"
 
 #. module: hotel_management
 #: model:ir.model.fields,help:hotel_management.field_hotel_facilities__hotel_chain_id
 msgid "Select the hotel chain"
-msgstr ""
+msgstr "Selecciona la cadena hotelera"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__service_requests
 msgid "Service Requests"
-msgstr ""
+msgstr "Solicitudes de Servicio"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__services_included
 msgid "Services Included"
-msgstr ""
+msgstr "Servicios Incluidos"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__bed_type__single
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__room_type__single
 msgid "Single"
-msgstr ""
+msgstr "Individual"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_room__special_rate
 msgid "Special Price per Night"
-msgstr ""
+msgstr "Precio Especial por Noche"
 
 #. module: hotel_management
 #: model_terms:ir.actions.act_window,help:hotel_management.action_hotel_facilities
 msgid "Start adding hotel facilities by clicking the \"Create\" button."
-msgstr ""
+msgstr "Comienza a agregar instalaciones hoteleras haciendo clic en el botón \"Crear\"."
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__state
 msgid "State/Province"
-msgstr ""
+msgstr "Estado/Provincia"
 
 #. module: hotel_management
 #: model:ir.model.fields.selection,name:hotel_management.selection__hotel_room__room_type__suite
 msgid "Suite"
-msgstr ""
+msgstr "Suite"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_res_partner__total_hotels
 #: model:ir.model.fields,field_description:hotel_management.field_res_users__total_hotels
 msgid "Total Number of Hotels"
-msgstr ""
+msgstr "Número Total de Hoteles"
 
 #. module: hotel_management
 #: model:ir.model.fields,field_description:hotel_management.field_hotel_facilities__website
 msgid "Website"
-msgstr ""
+msgstr "Sitio Web"
