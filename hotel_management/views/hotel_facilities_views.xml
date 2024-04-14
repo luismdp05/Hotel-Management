@@ -6,13 +6,13 @@
             <field name="model">hotel.facilities</field>
             <field name="arch" type="xml">
                 <tree string="Hotel Facilities">
-                    <field name="hotel_name"/>
+                    <field name="hotel_name" />
                     <!-- <field name="hotel_chain_id"/> -->
-                    <field name="hotel_type"/>
-                    <field name="hotel_category"/>
-                    <field name="number_of_rooms"/>
-                    <field name="website"/>
-                    <field name="description"/>
+                    <field name="hotel_type" />
+                    <field name="hotel_category" />
+                    <field name="number_of_rooms" />
+                    <field name="website" />
+                    <field name="description" />
                 </tree>
             </field>
         </record>
@@ -28,20 +28,24 @@
                             <div class="oe_kanban_global_click">
                                 <div class="oe_kanban_details">
                                     <strong>
-                                        <field name="hotel_name"/>
+                                        <field name="hotel_name" />
                                     </strong>
                                 </div>
                                 <div class="oe_kanban_image">
-                                    <img t-att-src="kanban_image('hotel.facilities', 'image', record.id.raw_value)" class="oe_avatar oe_kanban_avatar" style="max-height:100px;width:100px;" t-att-alt="record.hotel_name.value"/>
+                                    <img
+                                        t-att-src="kanban_image('hotel.facilities', 'image', record.id.raw_value)"
+                                        class="oe_avatar oe_kanban_avatar"
+                                        style="max-height:100px;width:100px;"
+                                        t-att-alt="record.hotel_name.value" />
                                 </div>
                                 <div>
                                     <span class="o_kanban_record_subtitle">
-                                        <field name="hotel_category"/>
+                                        <field name="hotel_category" />
                                     </span>
                                 </div>
                                 <div>
                                     <span class="o_kanban_record_subtitle">
-                                        <field name="hotel_type"/>
+                                        <field name="hotel_type" />
                                     </span>
                                 </div>
                                 <!-- <div>
@@ -67,35 +71,35 @@
                 <form string="Hotel Facilities">
                     <sheet>
                         <div class="oe_title">
-                            <label for="hotel_name"/>
+                            <label for="hotel_name" />
                             <h1>
-                                <field name="hotel_name" placeholder="Hotel Name ..."/>
+                                <field name="hotel_name" placeholder="Hotel Name ..." />
                             </h1>
                         </div>
                         <group col="2" string="Hotel Information">
                             <group>
-                                <field name="hotel_chain_id"/>
-                                <field name="hotel_type"/>
-                                <field name="hotel_category"/>
-                                <field name="number_of_rooms"/>
+                                <field name="hotel_chain_id" />
+                                <field name="hotel_type" />
+                                <field name="hotel_category" />
+                                <field name="number_of_rooms" />
                             </group>
                             <group string="Hotel Image">
-                                <field name="image" widget="image" size="small"/>
+                                <field name="image" widget="image" size="small" />
                             </group>
                         </group>
                         <group col="2" string="Other Data">
                             <group>
-                                <field name="hotel_address"/>
-                                <field name="city"/>
-                                <field name="state"/>
-                                <field name="country"/>
-                                <field name="postal_code"/>
+                                <field name="hotel_address" />
+                                <field name="city" />
+                                <field name="state" />
+                                <field name="country" />
+                                <field name="postal_code" />
                             </group>
                             <group>
-                                <field name="website"/>
-                                <field name="email"/>
-                                <field name="phone"/>
-                                <field name="description"/>
+                                <field name="website" />
+                                <field name="email" />
+                                <field name="phone" />
+                                <field name="description" />
                             </group>
                         </group>
                     </sheet>
@@ -117,6 +121,7 @@
         </record>
 
         <!-- Menu item to access hotel facilities view -->
-        <menuitem id="menu_hotel_facilities" name="Hotel Facilities" action="action_hotel_facilities" web_icon="hotel_management,static/img/icon.png"/>
+        <menuitem id="menu_hotel_facilities" name="Hotel Facilities"
+            action="action_hotel_facilities" web_icon="hotel_management,static/img/icon.png" />
     </data>
 </odoo>
