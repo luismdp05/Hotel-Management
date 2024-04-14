@@ -9,28 +9,21 @@ This module is under development
 
 <!-- ## Empezando 🚀 -->
 
-Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+<!-- Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas. -->
 
 <!-- ### Prerrequisitos 📋 -->
 
-Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
+<!--Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
 - Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
 - Lenguaje de programación (por ejemplo, Python 3.8)
 - Framework (por ejemplo, Django 3.1)
 - Base de datos (por ejemplo, PostgreSQL 12)
-- Otros...
+- Otros... -->
 
 <!-- ### Instalación 🔧 -->
 
-Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
-
-
-
-
-
-
-
+<!--Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.-->
 
 <!-- ## Despliegue 📦
 
